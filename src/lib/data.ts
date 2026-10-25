@@ -8,18 +8,6 @@ export const videos: PortfolioVideo[] = [
     category: "Reels"
   },
 ];
-    id: "dQw4w9WgXcQ",
-    title: "Sample Animation Reel",
-    description: "Showcase of recent animation work.",
-    category: "Reels"    
-  },
-  {
-    id: "dQw4w9WgXcQ",
-    title: "Sample Animation Reel",
-    description: "Showcase of recent animation work.",
-    category: "Reels"    
-  }
-];
 
 export function getVideos(): PortfolioVideo[] {
   return videos;
