@@ -62,10 +62,22 @@ export default function Home() {
               channelName: v.channelName,
               views: v.views,
             }))}
+            horizontal
           />
         )}
         <Carousel
           title="My Animation Projects"
+          videos={videos.map((v) => ({
+            id: v.id,
+            title: v.title,
+            thumbnail: v.thumbnail,
+            channelName: v.channelName,
+            views: v.views,
+          }))}
+          horizontal
+        />
+        <Carousel
+          title="All Projects"
           videos={videos.map((v) => ({
             id: v.id,
             title: v.title,

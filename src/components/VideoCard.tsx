@@ -18,7 +18,7 @@ export default function VideoCard({ id, title, thumbnail, channelName, views }: 
   return (
     <Link
       href={`/watch?v=${id}`}
-      className="group relative flex-shrink-0 w-64 md:w-72 lg:w-80 cursor-pointer"
+      className="group relative w-full cursor-pointer"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
